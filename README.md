@@ -108,7 +108,6 @@
         <a href="#about-us" onclick="closeMenu()">আমাদের সম্পর্কে</a>
         <a href="https://shakil228547.github.io/Shakil/" target="_blank" onclick="closeMenu()">নোটিস</a> <!-- Updated link here -->
         <a href="#exam" onclick="closeMenu()">পরীক্ষা</a>
-    <a href="https://shakil228547.github.io/Shakil/" target="_blank" onclick="closeMenu()">নোটিস</a>
         <a href="#contact" onclick="closeMenu()">যোগাযোগ</a>
         <a href="https://forms.gle/nV6H4RXy8b2xZJGcA" target="_blank" class="btn-enroll" onclick="closeMenu()">ভর্তি হও</a>
     </nav>
@@ -125,7 +124,6 @@
     <section id="notice">
         <h2>নোটিস</h2>
         <p>১ জানুয়ারি থেকে ক্লাস শুরু হবে।</p>
-        <p><a href="https://shakil228547.github.io/Shakil/" target="_blank" style="color: #4caf50; text-decoration: underline;">Visit Shakil's Website</a></p>
     </section>
     
     <!-- পরীক্ষা অপশন এবং লিংক -->
@@ -151,8 +149,8 @@
 
         function closeMenu() {
             const menu = document.getElementById("menu");
-            menu..remove("active");
+            menu.classList.remove("active");
         }
     </script>
 </body>
-</html
+</html>
