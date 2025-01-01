@@ -150,8 +150,8 @@
 
         function closeMenu() {
             const menu = document.getElementById("menu");
-            menu.classList.remove("active");
+            menu..remove("active");
         }
     </script>
 </body>
-</html>
+</html
